@@ -6,14 +6,21 @@ comments: true
 sharing: true
 footer: true
 ---
-
+%script{:type => "text/javascript", :src => "https://apis.google.com/js/plusone.js"}
 %p The following projects were nominated as possible projects for our first hackathon:
 %p
   %ul.unstyled
     %li
-      Hacking on
-      %a{:href => 'http://map.umd.edu/map/'} TerpNav
+      %a{:id => "osmterpnav", :href => "#osmterpnav"} OpenStreeMap TerpNav
+      %g:plusone{:size =>"small",:href => "#osmterpnav"}
+      %p
+        Hacking on
+        %a{:href => 'http://map.umd.edu/map/'} TerpNav
+        from the University of Maryland
     %li
-      Take the concepts from the
-      %a{:href => 'https://github.com/awebneck/sylvester'} sylvester
-      gem by Jeremy Holland and produce something dangerous and/or generally useful
+      %a{:id => "#sylvester",:href => "#sylvester"} Shared Memory Shenanigans
+      %g:plusone{:size =>"small",:href => "#sylvester"}
+      %p
+        Take the concepts from the
+        %a{:href => 'https://github.com/awebneck/sylvester'} sylvester
+        gem by Jeremy Holland and produce something dangerous and/or generally useful
