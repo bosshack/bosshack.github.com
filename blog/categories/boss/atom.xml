@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: BOSS | BOSS Hack-A-Thon]]></title>
+  <link href="http://bosshack.githubcom/blog/categories/boss/atom.xml" rel="self"/>
+  <link href="http://bosshack.githubcom/"/>
+  <updated>2012-12-04T22:10:38-06:00</updated>
+  <id>http://bosshack.githubcom/</id>
+  <author>
+    <name><![CDATA[BOSS]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First BOSS Hack-A-Thon Scheduled]]></title>
+    <link href="http://bosshack.githubcom/blog/2012/11/27/first-boss-hack-a-thon-scheduled/"/>
+    <updated>2012-11-27T21:38:00-06:00</updated>
+    <id>http://bosshack.githubcom/blog/2012/11/27/first-boss-hack-a-thon-scheduled</id>
+    <content type="html"><![CDATA[<p>%p Birmingham Open Source Software has scheduled our first Hack-A-Thon for 26-Jan-2013, also known as the last Saturday in January, 2013.</p>
+
+<p>%p
+  Several
+  %a{:href => '/first-hackathon-nominations'}potential projects
+  were suggested at our last BOSS meetup.  This list will most likely grow, so make sure you check back often.   Additional nominations
+  are encouraged - just post your suggestions in the comments</p>
+
+<p>%p
+  We're planning on having a virtual meeting in December to nail down the details.   Date and time of the December meeting
+  will be posted on the
+  %a{:href => 'http://www.meetup.com/bhamboss/'}BOSS Meetup Page</p>
+]]></content>
+  </entry>
+  
+</feed>
