@@ -5,22 +5,35 @@ date: 2012-11-27 22:09
 comments: true
 sharing: true
 footer: true
+author: dwilkins
 ---
 %script{:type => "text/javascript", :src => "https://apis.google.com/js/plusone.js"}
-%p The following projects were nominated as possible projects for our first hackathon:
-%p
-  %ul.unstyled
-    %li
-      %a{:id => "osmterpnav", :href => "#osmterpnav"} OpenStreeMap TerpNav
-      %g:plusone{:size =>"small",:href => "#osmterpnav"}
-      %p
-        Hacking on
-        %a{:href => 'http://map.umd.edu/map/'} TerpNav
-        from the University of Maryland
-    %li
-      %a{:id => "#sylvester",:href => "#sylvester"} Shared Memory Shenanigans
-      %g:plusone{:size =>"small",:href => "#sylvester"}
-      %p
-        Take the concepts from the
-        %a{:href => 'https://github.com/awebneck/sylvester'} sylvester
-        gem by Jeremy Holland and produce something dangerous and/or generally useful
+.possible-projects{:itemscope => "", :itemtype => 'http://schema.org/EducationEvent'}
+  %p{:itemprop => 'name'}
+    The following projects were nominated as possible projects for our first hackathon on
+    %span{:itemprop => 'startDate'}2013-01-26
+  %p
+    %ul.unstyled
+      %li{:itemscope => "", :itemprop => 'subEvent', :itemtype => 'http://schema.org/Event'}
+        %a{:id => 'osmterpnav', :href => '#osmterpnav', :itemprop => "url"}OpenStreeMap TerpNav
+        %g:plusone{:size =>"small",:href => "#osmterpnav"}
+        %p{:itemprop => 'description'}
+          Hacking on
+          %a{:href => 'http://map.umd.edu/map/'}TerpNav
+          from the University of Maryland
+      %li{:itemscope => "", :itemprop => 'subEvent', :itemtype => 'http://schema.org/Event'}
+        %a{:id => "#sylvester",:href => "#sylvester", :itemprop=>'url'} Shared Memory Shenanigans
+        %g:plusone{:size =>"small",:href => "#sylvester"}
+        %p{:itemprop => 'description'}
+          Take the concepts from the
+          %a{:href => 'https://github.com/awebneck/sylvester'} sylvester
+          gem by Jeremy Holland and produce something dangerous and/or generally useful
+      %li{:itemscope => "", :itemprop => 'subEvent', :itemtype => 'http://schema.org/Event'}
+        %a{:id => "#magicgathering",:href => "#magicgathering", :itemprop => 'url'} Magic Gathering Card Sorterator
+        %g:plusone{:size => "small",:href => "#magicgathering"}
+        %p{:itemprop => 'description'}
+          Develop software to recognize cards from
+          %a{:href => 'http://www.wizards.com/Magic/Summoner/'} Magic: The Gathering
+          for tournaments.   Apparently these tournaments have to catalog the cards you
+          got and the cards you're going to play.   Other possibilities are to build a sorting
+          machine like a money counter to count these cards
