@@ -37,3 +37,15 @@ author: <a href="https://github.com/dwilkins">dwilkins</a>
           for tournaments.   Apparently these tournaments have to catalog the cards you
           got and the cards you're going to play.   Other possibilities are to build a sorting
           machine like a money counter to count these cards
+      %li{:itemscope => "", :itemprop => 'subEvent', :itemtype => 'http://schema.org/Event'}
+        %a{:id => "#linuxairplay",:href => "#linuxairplay", :itemprop => 'url'} Linux AirPlay-esque service
+        %g:plusone{:size => "small",:href => "#linuxairplay"}
+        %p{:itemprop => 'description'}
+          %a{:href => 'https://github.com/knewter'}Josh Adams
+          and
+          %a{:href => 'https://github.com/adamgamble'}Adam Gamble
+          talked about writing an
+          %a{:href => 'http://www.apple.com/airplay/'}AirPlay
+          \-esque service for linux (but it should be easy to run it on mac / windows as well)
+          just having the server script vlc and having the host encode the desktop to a streaming video, and have a protocol to sync them up.
+          They think it's doable in the time allotted with a couple or three people working on it.
