@@ -33,5 +33,27 @@ published: false
 %p
   %strong Let's get started!
 
-
-  .clone Clone the repo
+  %ul
+    %li
+      Fork it!
+      %p
+        Make a fork of
+        %code git@github.com:bosshack/bosshack.github.com.git
+    %li
+      Clone your repo and go to that directory (probably
+      %strong bosshack.github.com
+      )
+      %p
+        %code
+          git clone git@github.com:YOURGITHUBIDHERE/bosshack.github.com.git
+        %br
+        Most people will need to make changes to their own fork instead of the master
+    %li
+      Add a remote named upstream
+      %p
+        %code
+          git remote add upstream git@github.com:bosshack/bosshack.github.com.git
+        %br
+        You may want to send a pull request
+    %li
+      Delete the contents of the_deploy directory

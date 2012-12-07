@@ -1,0 +1,12 @@
+<section>
+  <h1>Sticky Pages</h1>
+  <ul id="interesting-pages">
+    {% for page in site.pages limit: site.interesting_pages %}
+      {% if page.sticky_page %}
+        <li class="interesting-page">
+          <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
