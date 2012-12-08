@@ -3,7 +3,7 @@ layout: post
 title: "So You Want To Make Posts To This Blog"
 date: 2012-12-04 19:50
 comments: true
-author: dwilkins
+author: <a href="https://github.com/dwilkins">dwilkins</a>
 categories: blog post haml
 published: false
 ---
@@ -12,11 +12,13 @@ published: false
   %a{:href => "http://octopress.org/"} Octopress
   for this blog since it works with
   %a{:href => "http://pages.github.com/"} Github Pages
-  and it's got
+  , it's got
   %a{:href => "http://haml.info/"} HAML
-  support.   As it turns out, the procedure for actually making a post is pretty
-  involved.   I don't want to the be the only one making posts about our
-  Hack-A-Thon, so here is the procedure for making posts.
+  support and it's a self-described
+  %em blogging framework for hackers.
+  As it turns out, the procedure for actually making a post is pretty
+  technical.   I don't want to the be the only one making posts about our
+  Hack-A-Thon9s), so here is the procedure for making posts.
 
 %p
   %a{:href => "http://octopress.org/"} Octopress
@@ -32,7 +34,6 @@ published: false
 
 %p
   %strong Let's get started!
-
   %ul
     %li
       Fork it!
@@ -50,27 +51,40 @@ published: false
           git clone git@github.com:
           %strong> YOURGITHUBIDHERE/
           bosshack.github.com.git
-        %br
+        %br/
         Most people will need to make changes to their own fork instead of the master
     %li
       Add a remote named upstream that points to the master repo
       %p
         %code
           git remote add upstream git@github.com:bosshack/bosshack.github.com.git
-        %br
+        %br/
         You may want to send a pull request if you have a post or changes to a post
     %li
-      Delete the contents of the `_deploy` directory
+      Delete the contents of the
+      %strong _deploy
+      directory if it exists.  It shouldn't
       %p
         %code rm -rf _deploy
-        %br
+        %br/
         We're gonna clone
         %strong your
         fork
         %strong again
-        in the _deploy directory
+        into the
+        %strong _deploy
+        directory
     %li
-      Clone your fork to the _deploy directory
+      Checkout the
+      %strong source
+      branch
+      %p
+        %code
+          git checkout source
+        %br/
+        The source branch is where the posts and pages are written in your markup style of choice.
+    %li
+      Clone your fork to the _deploy directory (seems redundant, right? - it's kind of cool actually)
       %p
         %code
           git clone git@github.com:
@@ -81,3 +95,46 @@ published: false
       Bundle that Sh*t
       %p
         %code bundle
+    %li
+      Preview the site on port
+      %a{:href => "http://localhost:4000"}localhost:4000
+      %p
+        %code
+          rake preview
+        %br/
+        This command will watch the source directory for changes and
+        regenerate the site when something changes
+    %li
+      Make a post
+      %p
+        %code rake new_post["My Awesome Post Title"]
+        %br/
+        This creates a new file in the
+        %strong source/_posts
+        directory with a filename like YYYY-MM-DD-my-awesome-post-title.haml with
+        %a{:href => "https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter"}YAML Front Matter.
+        Feel free to change the extension to .markdown if you would rather edit in
+        %a{:href => "http://daringfireball.net/projects/markdown/"}Markdown.
+    %li
+      Edit the file above as appropriate.   Continually check your work in the browser and
+      in the session where you ran
+      %br/
+      %code rake preview
+      %br/
+      Any HAML/Markdown/etc errors will show up in the STDOUT of that command.
+    %li
+      Add your post to the git
+      %strong source
+      branch and commit
+      %p
+        %code git add source/_posts/*
+        %br/
+        %code git commit -m "Created an awesome blog post for bosshack.org"
+    %li
+      Push the changes to your fork and send a pull request to
+      %a{:href => "https://github.com/bosshack"}bosshack
+      if you want it included on the site.
+    %li
+      If you run into any problems with these instructions, leave a comment below and I'll update
+      them accordingly
+
