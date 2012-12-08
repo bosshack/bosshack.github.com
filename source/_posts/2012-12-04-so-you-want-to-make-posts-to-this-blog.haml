@@ -40,20 +40,44 @@ published: false
         Make a fork of
         %code git@github.com:bosshack/bosshack.github.com.git
     %li
-      Clone your repo and go to that directory (probably
+      Clone
+      %strong your
+      repo and go to that directory (probably
       %strong bosshack.github.com
       )
       %p
         %code
-          git clone git@github.com:YOURGITHUBIDHERE/bosshack.github.com.git
+          git clone git@github.com:
+          %strong> YOURGITHUBIDHERE/
+          bosshack.github.com.git
         %br
         Most people will need to make changes to their own fork instead of the master
     %li
-      Add a remote named upstream
+      Add a remote named upstream that points to the master repo
       %p
         %code
           git remote add upstream git@github.com:bosshack/bosshack.github.com.git
         %br
-        You may want to send a pull request
+        You may want to send a pull request if you have a post or changes to a post
     %li
-      Delete the contents of the_deploy directory
+      Delete the contents of the `_deploy` directory
+      %p
+        %code rm -rf _deploy
+        %br
+        We're gonna clone
+        %strong your
+        fork
+        %strong again
+        in the _deploy directory
+    %li
+      Clone your fork to the _deploy directory
+      %p
+        %code
+          git clone git@github.com:
+          %strong> YOURGITHUBIDHERE/
+          bosshack.github.com.git
+          %strong _deploy
+    %li
+      Bundle that Sh*t
+      %p
+        %code bundle
