@@ -4,7 +4,7 @@
   <title><![CDATA[BOSS Hack-A-Thon]]></title>
   <link href="http://bosshack.org/atom.xml" rel="self"/>
   <link href="http://bosshack.org/"/>
-  <updated>2012-12-08T14:54:01-06:00</updated>
+  <updated>2012-12-11T12:55:48-06:00</updated>
   <id>http://bosshack.org/</id>
   <author>
     <name><![CDATA[BOSS]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BOSS Hack planning meetup]]></title>
+    <link href="http://bosshack.org/blog/2012/12/11/boss-hack-planning-meetup/"/>
+    <updated>2012-12-11T12:06:00-06:00</updated>
+    <id>http://bosshack.org/blog/2012/12/11/boss-hack-planning-meetup</id>
+    <content type="html"><![CDATA[<table class='event-info'>
+  <tr>
+    <td class='label'>
+      <strong>Date/Time</strong>
+    </td>
+    <td class='info'>6pm 17-Dec-2012</td>
+  </tr>
+  <tr>
+    <td class='label'>
+      <strong>Location</strong>
+    </td>
+    <td class='info'>
+      <a href='https://plus.google.com/u/0/events/clkj95bn5ft5nge19ggfonpgodc'>Google Hangout</a>
+      or
+      <a href='http://isotope11.com/contact'>isotope | eleven Offices</a>
+    </td>
+  </tr>
+  <tr>
+    <td class='label'>
+      <strong>Signup</strong>
+    </td>
+    <td class='info'>
+      <a href='http://www.meetup.com/bhamboss/events/92753442/'>Meetup</a>
+    </td>
+  </tr>
+</table>
+<br />
+<p>
+  BOSS will hold it&#8217;s December meetup at 6pm CST on 17-Dec, 2012.  Since the holidays are so near and many of our regular attendees
+  have a busy social calendar this meeting will be via Google Hangout.
+  <a href='https://github.com/knewter'>Josh</a>
+  has scheduled the
+  <a href='https://plus.google.com/u/0/events/clkj95bn5ft5nge19ggfonpgodc'>hangout</a>
+  so click the link to get a reminder.
+</p>
+<p>
+  Participation in the hangout is optional.  Members that prefer to attend the meeting at the
+  <a href='http://isotope11.com/contact'>isotope | eleven Offices</a>
+  are encoraged to do so.
+</p>
+<p>
+  Our adgenda for this meeting will be:
+  <ul>
+    <li>
+      Planning the logistics for the
+      <a href='http://bosshack.org/blog/2012/11/27/first-boss-hack-a-thon-scheduled/'>Hack-A-Thon</a>
+    </li>
+    <li>
+      Reviewing the current list of project
+      <a href='http://bosshack.org/first-hackathon-nominations/index.html'>nominations</a>
+    </li>
+    <li>
+      Whatever else comes up&#8230;
+    </li>
+  </ul>
+</p>
+<p>
+  As is the case with any hacker meeting, familiarity with the technology involved (Google Hangout)
+  is encouraged.  You may desire to share your screen, mute your audio, or put a mustache on your image.
+  Be Prepared&#8230;.
+</p>
+<h1>Hope to see you on Monday!</h1>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[So You Want To Make Posts To This Blog]]></title>
