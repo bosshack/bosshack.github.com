@@ -4,7 +4,7 @@
   <title><![CDATA[Category: BOSS | BOSS Hack-A-Thon]]></title>
   <link href="http://bosshack.org/blog/categories/boss/atom.xml" rel="self"/>
   <link href="http://bosshack.org/"/>
-  <updated>2012-12-11T12:55:48-06:00</updated>
+  <updated>2012-12-18T08:16:12-06:00</updated>
   <id>http://bosshack.org/</id>
   <author>
     <name><![CDATA[BOSS]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Planning Meetup Summary]]></title>
+    <link href="http://bosshack.org/blog/2012/12/17/planning-meetup-summary/"/>
+    <updated>2012-12-17T20:21:00-06:00</updated>
+    <id>http://bosshack.org/blog/2012/12/17/planning-meetup-summary</id>
+    <content type="html"><![CDATA[<p>%p So the Google Hangout formula seemed to work out for this planning meetup.  I've embedded it at the bottom of this post.</p>
+
+<p>%p
+  We talked about quite a few things.  It was agreed upon that we'd expect to see
+  a list of projects with sponsors, and that in general there'd only be one project
+  per sponsor.  Then anyone who was interested in that project could sign on and say
+  "yeah, I'd like to help with that."  That's pretty much all of the rigor that will
+  go into figuring out the projects ahead of time - we'll organize online and hopefully
+  have a good feel for what we're doing by the time that we arrive.</p>
+
+<p>%p
+  I've updated the
+  %a{:href => '/first-hackathon-nominations/index.html'} potential projects
+  list to reflect newly suggested projects.  If someone feels that a project is dead,
+  feel free to submit a PR with it removed.  If you want a project added, send a PR
+  with the new project (or mention it in a comment and we can help out).</p>
+
+<p>%p Within a week or so, we should remove projects that haven't had a champion yet.  If you'd like to nominate yourself as a champion for a given project, either send a PR with yourself listed on the project on this page, or mention it in comments (lazy) and we'll put it up there for you.</p>
+
+<p>%iframe{ width:560, height:315, src:"http://www.youtube.com/embed/wACXOEF2dRQ", frameborder:"0", allowfullscreen: true }</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BOSS Hack planning meetup]]></title>
