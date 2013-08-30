@@ -4,7 +4,7 @@
   <title><![CDATA[BOSS Hack-A-Thon]]></title>
   <link href="http://bosshack.org/atom.xml" rel="self"/>
   <link href="http://bosshack.org/"/>
-  <updated>2012-12-18T08:18:11-06:00</updated>
+  <updated>2013-08-30T12:58:10-05:00</updated>
   <id>http://bosshack.org/</id>
   <author>
     <name><![CDATA[BOSS]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hacktember Projects have been decided]]></title>
+    <link href="http://bosshack.org/blog/2013/08/30/hacktember-projects-have-been-decided/"/>
+    <updated>2013-08-30T12:42:00-05:00</updated>
+    <id>http://bosshack.org/blog/2013/08/30/hacktember-projects-have-been-decided</id>
+    <content type="html"><![CDATA[<p>
+  During our August meetup, we kicked off &#8220;Hacktember&#8221; by nominating and forming teams around
+  several projects:
+</p>
+<ul>
+  <li>
+    Arduino Aquaponics
+    <ul>
+      <li>
+        <a href='https://github.com/bosshack/aquaponics'>Github Project</a>
+      </li>
+      <li>
+        <a href='https://plus.google.com/114008556324488686789' rel='publisher'>Google+ Page</a>
+      </li>
+    </ul>
+  </li>
+  <li>Lupus Predictors</li>
+  <li>Stratoglider</li>
+  <li>
+    Chromechat / Erlang Chat Server
+    <ul>
+      <li>
+        <a href='https://github.com/bosshack/chromechat'>Github Project</a>
+      </li>
+    </ul>
+  </li>
+  <li>USB/Bluetooth physical hardware lockdown / security</li>
+  <li>Jobs War-Driving</li>
+</ul>
+<p>
+  Everyone is invited to join us on Monday, 30-Sep-2013 at 6pm
+  to see the progress we&#8217;ve made over the month.   There&#8217;s a handy Google calendar link below if you need a reminder&#8230;
+</p>
+<a href='http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Hacktember%20Recap&amp;dates=20130930T230000Z/20131001T010000Z&amp;details=Hacktember%20recap%20meeting&amp;location=529%20Beacon%20Parkway%20W%2C%20%20Suite%20105%2C%20%20Birmingham%2C%20AL%2035209&amp;trp=false&amp;sprop=BossHack&amp;sprop=name:http%3A%2F%2Fbosshack.org' target='_blank'>
+  <img border='0' src='http://bosshack.org//www.google.com/calendar/images/ext/gc_button1.gif' />
+</a>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Planning Meetup Summary]]></title>
