@@ -4,7 +4,7 @@
   <title><![CDATA[BOSS Hack-A-Thon]]></title>
   <link href="http://bosshack.org/atom.xml" rel="self"/>
   <link href="http://bosshack.org/"/>
-  <updated>2013-08-30T12:58:10-05:00</updated>
+  <updated>2014-01-07T10:32:02-06:00</updated>
   <id>http://bosshack.org/</id>
   <author>
     <name><![CDATA[BOSS]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BOSSHack January 2014]]></title>
+    <link href="http://bosshack.org/blog/2014/01/07/bosshack-january-2014/"/>
+    <updated>2014-01-07T10:27:00-06:00</updated>
+    <id>http://bosshack.org/blog/2014/01/07/bosshack-january-2014</id>
+    <content type="html"><![CDATA[<p>So on Saturday, January 25th, starting at 9AM CST, we&#8217;re going to be meeting up
+at the <a href="http://www.isotope11.com">Isotope11</a> offices at 529 Beacon Parkway,
+Suite 105, Birmingham, AL 35209 for another hackathon.</p>
+
+<p>The idea is that a few people will come with projects of their own to work on,
+and some people might meet up and decide to hack on something together.  So far,
+here&#8217;s what we&#8217;ve got planned:</p>
+
+<ul>
+<li>Josh Adams will be working on building a <a href="http://keyglove.net">KeyGlove</a>.
+He&#8217;s already ordered all of the parts, but if you wanted to build one too
+there&#8217;s sufficient time for you to order the parts ahead of time so we can all
+do it together.</li>
+</ul>
+
+
+<p>If you know what you want to work on, comment and I&#8217;ll add it to the post so we
+can keep track of it up top.  Looking forward to it!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hacktember Projects have been decided]]></title>
